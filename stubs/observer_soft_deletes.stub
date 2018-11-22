@@ -1,0 +1,128 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyFullModelClass;
+
+class DummyClass
+{
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function retrieved(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function creating(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function created(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function updating(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function updated(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function deleting(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function deleted(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function forceDeleted(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function restoring(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function restored(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function saving(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function saved(DummyModelClass DummyModelVariable): void
+    {
+        //
+    }
+}

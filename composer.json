@@ -1,0 +1,37 @@
+{
+  "name": "binaryoung/laravel-model-events-generator",
+  "description": "Laravel model events generator",
+  "keywords": [
+    "laravel",
+    "model events",
+    "generator"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "young",
+      "email": "me@xiayang.me",
+      "homepage": "https://xiayang.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "laravel/framework": ">=5.5",
+    "symfony/finder": ">=4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Binaryoung\\LaravelModelEventsGenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Binaryoung\\LaravelModelEventsGenerator\\GeneratorServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

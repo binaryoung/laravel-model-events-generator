@@ -1,0 +1,29 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Foundation\Events\Dispatchable;
+use DummyFullModelClass;
+
+class DummyEventClass
+{
+    use Dispatchable, SerializesModels;
+
+    /**
+     * DummyModelClass instance
+     *
+     * @var DummyModelClass
+     */
+    public $DummyModelVariable;
+
+    /**
+     * @param DummyModelClass DummyModelVariable
+     *
+     * @return void
+     */
+    public function __construct(DummyModelClass $DummyModelVariable)
+    {
+        $this->DummyModelVariable =  $DummyModelVariable;
+    }
+}

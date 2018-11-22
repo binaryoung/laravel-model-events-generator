@@ -11,7 +11,7 @@ Laravel command tool to help you generate [model events](https://laravel.com/doc
 You can install the package via composer:
 
 ```bash
-composer require binaryoung/laravel-model-events-generator
+composer require binaryoung/laravel-model-events-generator --dev
 ```
 
 ## Usage
